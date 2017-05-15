@@ -1,0 +1,46 @@
+!!!
+
+%html
+%head
+	%script{src: "https://use.fontawesome.com/c04ab4e2e1.js"}
+	%title Zcool
+	= csrf_meta_tags 
+	= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' 
+	= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' 
+		
+
+%body
+	%nav.navbar.navbar-default
+		.navbar-brand 
+			=link_to "Z-cool", root_path
+		%ul.nav.navbar-nav.center
+			%li= link_to "Our Services", services_index_path
+			%li= link_to "About", about_index_path
+			%li= link_to "Contact Us", contact_index_path
+		%ul.navbar-links
+			%li AC Repair Specialist
+			%li since 2002
+
+=yield
+
+%footer
+	.bottom_left
+		.row
+			%ul.col-md-6
+				%li CONTACT US:
+				%li Email : rsbv2000@yahoo.com
+				%li Alamat : Jalan Jembatan Tiga no 6B, Penjaringan, Jakarta Utara
+			.bottom_right
+				%ul.col-md-6
+					%li Z-cool
+					%li AC Repair Specialist	
+	.social_media
+		.row
+			%ul.col-md-12
+				%li.i.fa.fa-facebook.fa-2x
+				%li.i.fa.fa-instagram.fa-2x
+				%li.i.fa.fa-twitter.fa-2x
+		
+
+
+

@@ -1,3 +1,89 @@
-%h1 Services
+!!!
 
-%p= link_to "Back", root_path
+
+.pic
+	.jumbo
+		.container
+			.row
+				.col-md-4
+				.col-md-4
+				.col-md-4
+					%h1 Services
+					%p Motto : 
+					.color
+						%p "Your comfort is our pleasure to meet"
+					.color2
+						%p Z-cool AC Specialist
+
+
+.before_title2
+	%h1 Jasa yang kami sediakan					
+
+
+.row
+	.col-md-7
+		.kiri
+			%h1 Reparasi AC
+			%h4 Perbaikan masalah AC berkaitan dengan freon, saluran, sensor, termostat, drainase, modul elektronik dan remote AC
+			.join
+				.text-danger
+					%h4 Mulai dari 200.000/unit
+				=link_to "order now", contact_index_path, class: "btn btn-warning btn-lg"
+	.col-md-5
+		.kanan
+			=image_tag "images3.jpg", width: "100%", height: "203"
+%br
+%br			
+.row
+	.col-md-7
+		.kiri
+			%h1 Service AC
+			%h4 Bersihkan kumparan AC, saringan, saluran, hingga drainase pompa AC, sehingga AC bersih dan bebas penyakit
+			.join
+				.text-danger
+					%h4 Mulai dari 75.000/unit
+				=link_to "order now", contact_index_path, class: "btn btn-warning btn-lg"
+	.col-md-5
+		.kanan
+			=image_tag "service ac.jpg", width: "100%", height: "203"
+%br		
+%br	
+.row
+	.col-md-7
+		.kiri
+			%h1 Isi Freon
+			%h4 Penggantian gas pendingin (freon) jika ada kebocoran, menjadi freon baru yang hemat listrik
+			.join
+				.text-danger
+					%h4 Mulai dari 350.000/unit
+				=link_to "order now", contact_index_path, class: "btn btn-warning btn-lg"
+	.col-md-5
+		.kanan
+			=image_tag "isi freon.jpg", width: "100%", height: "203"
+		
+%br		
+.blue
+	%h1 How we work?
+	.row
+		.col-md-3
+			%ul.blue_text
+				%li=image_tag "option.png", width: "100", height: "100"
+				%li Choose our service and tell your problem spesifically
+				%li=image_tag "arrow right.png", width: "50", height: "50"
+		.col-md-3
+			%ul.blue_text
+				%li=image_tag "time.png", width: "100", height: "100"
+				%li Tell us your time and we will arranged all the rest
+				%li=image_tag "arrow right.png", width: "50", height: "50"
+		.col-md-3
+			%ul.blue_text
+				%li=image_tag "transport.png", width: "100", height: "100"
+				%li We will send our technician and all the equipments
+				%li=image_tag "arrow right.png", width: "50", height: "50"
+		.col-md-3	
+			%ul.blue_text
+				%li=image_tag "money.png", width: "100", height: "100"
+				%li You can pay us ater work via cash and transfer, very simple
+	
+
+

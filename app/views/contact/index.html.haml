@@ -1,3 +1,51 @@
-%h1 Contact Us
+!!!
 
-%p= link_to "Back", root_path
+
+.pic2
+	.container
+		.row
+			.col-md-4
+			.col-md-4
+			.col-md-4
+				.jumbo2
+					%h1 Contact Us
+					.color3
+						%p We are air conditioner specialist based in Jakarta, Indonesia. Look below for more information
+.row
+	.col-md-6
+		.title4
+			Alamat dan Kontak
+		.title5
+			%p Jl. Jembatan Tiga NO.6B, RT/RW : 002/016, Penjaringan, Jakarta Utara, Kode Pos: 14440
+			%p Phone: 08161943283	
+		%form.form_settings
+			.form-group
+				%label{for: "nama"} Nama:
+				%input#nama.form-control{type: "nama"}
+			.form-group
+				%label{for: "email"} Email:
+				%input#email.form-control{type: "email"}
+			.form-group
+				%label{for: "pesan"} Pesan:
+				%input#pesan.form-control{type: "pesan"}
+			%button.btn.btn-warning{type: "submit"} Submit
+
+	.col-md-6
+		.map
+			%iframe{src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.969381201638!2d106.79133355003363!3d-6.134816384537774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1d8c9c21aab5%3A0x5ecdf8b7090cfef2!2sJl.+Jembatan+Tiga%2C+Penjaringan%2C+Kota+Jkt+Utara%2C+Daerah+Khusus+Ibukota+Jakarta!5e0!3m2!1sen!2sid!4v1494555152977", width: "600", height: "450", frameborder: "0", style: "border:0"}
+
+.contact
+	.row
+		.col-md-4
+			.title3
+				%h1 Z-cool
+				%p AC Repair Specialist
+				%br
+				%br
+				%br
+			.logo
+				%p.i.fa.fa-user Ir. Robert Johan
+				%p.i.fa.fa-phone (021) 9260 2700 , 0816 194 3283
+				%p.i.fa.fa-envelope-o rsbv2000@yahoo.com
+				%p.i.fa.fa-envelope-o robert_johan@yahoo.com
+

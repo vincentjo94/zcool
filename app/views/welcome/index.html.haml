@@ -1,5 +1,43 @@
-%h1 Z-cool
+#callouts
+.callout
 
-%p= link_to "About", about_index_path
-%p= link_to "Our Services", services_index_path
-%p= link_to "Contact Us", contact_index_path
+#callout2
+	.callout2	
+		%h3 "Pengalaman kami dalam menangani masalah air conditioner sejak tahun 2008 membuat kami menjadi salah satu teknisi terbaik di bidang ini, sehingga kepuasan anda dijamin"
+		%p=link_to "read more about us", about_index_path, class: "btn btn-info"
+
+.before_title Jasa apa saja yang kami tawarkan?
+
+.blocks
+	.row
+		.col-md-4
+			.feature-icon1
+			.feature_title Reparasi AC
+			.feature_note Memperbaiki segala jenis kerusakan ac baik freon sampai sparepart indoor maupun outdoor
+
+		.col-md-4
+			.feature-icon2
+			.feature_title Service AC
+			.feature_note Membersihkan ac anda dengan tujuan pembersihan rutin sehingga tidak menjadi sarang penyakit
+
+		.col-md-4
+			.feature-icon3
+			.feature_title Freon Hemat Listrik
+			.feature_note Mengganti freon konvensional menjadi freon ramah lingkungan dan ac menjadi hemat listrik	
+
+	.row
+		.col-md-4
+			.after_title 
+				=link_to "more info", services_index_path, class: "btn btn-info btn-lg"
+
+		.col-md-4
+			.after_title 
+				=link_to "more info", services_index_path, class: "btn btn-info btn-lg"
+
+		.col-md-4
+			.after_title 
+				=link_to "more info", services_index_path, class: "btn btn-info btn-lg"				
+
+.image2
+
+

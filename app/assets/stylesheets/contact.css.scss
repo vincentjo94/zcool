@@ -1,0 +1,74 @@
+.jumbo2 {
+	h1 {
+		text-align: center;
+		color: grey;
+		font-size: 70px;
+		padding-top: 30px;
+	}
+	p {
+		font-size: 22px;
+		text-align: left;
+		padding-left: 10px;
+	}
+}
+.pic2 {
+	background-image:url("contact us.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	width:1350px;
+	height:400px;
+	text-align: right;
+}
+
+.contact {
+	background-image:url("desktop.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	width:1350px;
+	height:400px;
+	text-align: left;
+}
+
+
+.title3 {
+	h1 {
+		color: red;
+		font-style: italic;
+		padding: 20px 0 0 40px;
+	}
+	p {
+		font-size: 20px;
+		font-style: italic;
+		padding: 0 0 0 40px;
+	}
+}
+
+.logo {
+	p {
+		padding: 0 0 0 40px;
+		font-size: 25px;
+	}
+}
+
+.map {
+	margin: 20px;
+	text-align: right;
+}
+
+.title4 {
+	color: grey;
+	font-size: 30px;
+	text-align: left;
+	padding: 20px 20px 0 20px;
+}
+
+.title5 {
+	text-align: left;
+	padding: 10px 0 0 20px;
+}
+
+.form_settings {
+	padding: 20px;
+}
