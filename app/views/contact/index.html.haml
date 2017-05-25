@@ -1,5 +1,5 @@
 !!!
-
+%meta{name: "viewport", content: "width=device-width, initial-scale=1"}
 
 .pic2
 	.container
@@ -28,7 +28,8 @@
 			.form-group
 				%label{for: "pesan"} Pesan:
 				%input#pesan.form-control{type: "pesan"}
-			%button.btn.btn-warning{type: "submit"} Submit
+			%button.btn.btn-warning{type: "submit"} Submit 
+
 
 	.col-md-6
 		.map
@@ -44,7 +45,10 @@
 				%br
 				%br
 			.logo
-				%p.i.fa.fa-user Ir. Robert Johan
+				%p.i.fa.fa-user
+					%span{style: "padding-left:0.5em"}
+						Ir. Robert Johan
+					
 				%p.i.fa.fa-phone (021) 9260 2700 , 0816 194 3283
 				%p.i.fa.fa-envelope-o rsbv2000@yahoo.com
 				%p.i.fa.fa-envelope-o robert_johan@yahoo.com

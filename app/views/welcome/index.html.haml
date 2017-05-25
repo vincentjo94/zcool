@@ -1,4 +1,32 @@
-#callouts
+%meta{name: "viewport", content: "width=device-width, initial-scale=1"}
+
+.carousel.slide{:id=>"myCarousel", :data => {:ride => "carousel"}}
+	%ol.carousel-indicators
+		%li.active{:data => {:target => "#myCarousel", :slide_to => "0"}}
+		%li{:data => {:target => "#myCarousel", :slide_to => "1"}}
+		%li{:data => {:target => "#myCarousel", :slide_to => "2"}}
+	.carousel-inner
+		.item.active
+			=image_tag "ac ruang tamu.jpg"
+			.carousel-caption
+				%h3 Chicago
+				%p Thank you, Chicago!
+		.item
+			=image_tag "air conditioner repair.jpg"
+			.carousel-caption
+				%h3 Chicago
+				%p Thank you, Chicago!
+		.item
+			=image_tag "contact us.jpg"
+			.carousel-caption
+				%h3 Chicago
+				%p Thank you, Chicago!
+
+	%a.left.carousel-control{:href => "#myCarousel", :data => {:slide => "prev"}}
+		%span.glyphicon.glyphicon-chevron-left
+	%a.right.carousel-control{:href => "#myCarousel", :data => {:slide => "next"}}
+		%span.glyphicon.glyphicon-chevron-right
+
 .callout
 
 #callout2
@@ -14,29 +42,22 @@
 			.feature-icon1
 			.feature_title Reparasi AC
 			.feature_note Memperbaiki segala jenis kerusakan ac baik freon sampai sparepart indoor maupun outdoor
+			.after_title 
+				=link_to "more info", services_index_path, class: "btn btn-info btn-lg"
 
 		.col-md-4
 			.feature-icon2
 			.feature_title Service AC
 			.feature_note Membersihkan ac anda dengan tujuan pembersihan rutin sehingga tidak menjadi sarang penyakit
+			.after_title 
+				=link_to "more info", services_index_path, class: "btn btn-info btn-lg"
 
 		.col-md-4
 			.feature-icon3
 			.feature_title Freon Hemat Listrik
 			.feature_note Mengganti freon konvensional menjadi freon ramah lingkungan dan ac menjadi hemat listrik	
-
-	.row
-		.col-md-4
 			.after_title 
 				=link_to "more info", services_index_path, class: "btn btn-info btn-lg"
-
-		.col-md-4
-			.after_title 
-				=link_to "more info", services_index_path, class: "btn btn-info btn-lg"
-
-		.col-md-4
-			.after_title 
-				=link_to "more info", services_index_path, class: "btn btn-info btn-lg"				
 
 .image2
 
